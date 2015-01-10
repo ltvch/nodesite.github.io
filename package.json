@@ -1,0 +1,28 @@
+{
+  "name": "nodesite1",
+  "version": "0.0.1",
+  "description": "NodeJS static site",
+  "dependencies": {
+    "express": "*",
+    "morgan": "*",
+    "stylus": "*",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "^0.14.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/ltvch/nodesite1"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "one",
+    "page"
+  ],
+  "author": "ltvch",
+  "license": "ISC"
+}

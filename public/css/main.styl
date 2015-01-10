@@ -1,0 +1,61 @@
+@import 'vaiables'
+
+
+html, body
+	padding: 0
+	margin: 0
+	font: font-size/line-height font-family-main
+	font-weight: font-weight-main
+	color: color-text
+	background: color-bg
+
+header, aside, article, footer
+	padding: 16px
+
+
+header 
+	img
+		float:left
+		margin-right: 16px
+	h1
+		font: 48px font-family-header
+		font-weight: font-weight-header
+		color: color-header
+
+aside
+	nav a
+		text-decoration: none
+		color: color-nav-links
+		padding: 8px
+		&:hover
+			color-nav-links-hover
+
+footer
+	font-side: 12px
+	color: color-footer-color
+
+@media screen and (max-width: 480px)
+	header, aside, article, footer
+		padding: 8px
+
+	header, aside, footer
+		text-align: center
+
+	header img
+		float: none
+		margin: 0
+
+@media screen and (max-width: 961px)
+	aside
+		position: fixed
+		left: 0
+		width: 160px
+		nav a
+			display: block
+
+	article
+		margin-left: 176px
+		width: 800px
+
+	footer
+		clear: both
